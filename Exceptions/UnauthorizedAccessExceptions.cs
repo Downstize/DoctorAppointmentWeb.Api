@@ -3,7 +3,7 @@ namespace DoctorAppointmentWeb.Api.Exceptions;
 /// <summary>
 /// Исключение для случая, когда доступ запрещен.
 /// </summary>
-public class UnauthorizedAccessException : Exception
+public class UnauthorizedAccessExceptions : Exception
 {
-    public UnauthorizedAccessException(string message = "Доступ запрещён.") : base(message) { }
+    public UnauthorizedAccessExceptions(string message = "Доступ запрещён.") : base(message) { }
 }
