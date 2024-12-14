@@ -8,3 +8,4 @@ public class ValidationException : Exception
     public ValidationException(string fieldName, string errorMessage) 
         : base($"Возникла проблема валидации на поле '{fieldName}': {errorMessage}") { }
 }
+

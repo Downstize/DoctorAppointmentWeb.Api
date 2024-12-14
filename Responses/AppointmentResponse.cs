@@ -14,3 +14,5 @@ public record AppointmentResponse
     
     public string Notes { get; set; }
 }
+
+

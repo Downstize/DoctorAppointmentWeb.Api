@@ -24,3 +24,5 @@ namespace DoctorAppointmentWebApi.DTOs
         public string Notes { get; set; }
     }
 }
+
+

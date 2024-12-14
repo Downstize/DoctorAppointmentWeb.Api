@@ -7,3 +7,4 @@ public class UnauthorizedAccessExceptions : Exception
 {
     public UnauthorizedAccessExceptions(string message = "Доступ запрещён.") : base(message) { }
 }
+
