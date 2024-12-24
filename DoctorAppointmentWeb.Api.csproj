@@ -7,8 +7,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="HotChocolate.AspNetCore" Version="14.1.0" />
+      <PackageReference Include="HotChocolate.AspNetCore" Version="14.3.0" />
+      <PackageReference Include="HotChocolate.Data" Version="14.3.0" />
+      <PackageReference Include="HotChocolate.Types" Version="14.3.0" />
       <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
       <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.0.0" />
       <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     </ItemGroup>
